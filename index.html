@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <title>Johnson Zhang</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</header>
+<body>
+    <section class="header">
+        <div class="header-left">
+            <a class="active" href="#home">Home</a>
+            <a class="about" href="#about-page">About</a>
+            <a class="projects" href="#projects-page">Projects</a>
+        </div>
+        <div class="header-right">
+            <a class="resume" href="./docs/Resume.pdf">Resume</a>
+            <a class="mail" href="mailto:johnson7267@gmail.com"><i class="fa fa-envelope"></i></a>
+            <a class="linkedin" href="https://www.linkedin.com/in/johnson-zhang-ba77b1163/"><i class="fa fa-linkedin"></i></a>
+            <a class="github" href="https://github.com/johnsonzhang434"><i class="fa fa-github"></i></a>
+        </div>
+    </section>
+    <section class="background">
+        <h1>Hello, my name is<br><span class="name">Johnson Zhang</span><br> Aspiring Software Developer</h1>
+    </section>
+    <hr class="divider">
+    <section id = "about-page">
+        <h1>"I am a 3rd year<span class="major"> Software Design </span>Student <br> at Queen's University, graduating in May, 2022.<br>
+        I like to code :) "</h1>
+    </section>
+    <hr class="divider">
+    <section id = "projects-page">
+        <h2>Featured Projects</h2>  
+        <div class="container" style="width: 900px; height: 500px;">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
+          
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                    <div class="slide first">
+                        <div class="image">
+                            <img class ="image_img" src="images/p2.jpg" alt="">
+                            <div class ="image_overlay image_overlay_blur">
+                                <div class="image_title">Airline Web Application</div>
+                                <p class="image_description">
+                                    A fully functioning web-based interface for an airline<br>system based on a given airline database
+                                </p>
+                                <div class="languages">
+                                    <span class="language">PHP</span>
+                                    <span class="language">SQL</span>
+                                    <span class="language">Javascript</span>
+                                    <span class="language">HTML</span>
+                                    <span class="language">CSS</span>
+                                </div>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+          
+                <div class="item">
+                    <div class="slide">
+                        <div class="image">
+                            <img class ="image_img" src="images/p3.jpeg" alt="">
+                            <div class ="image_overlay image_overlay_blur">
+                                <div class="image_title">SeetGeek</div>
+                                <p class="image_description">
+                                    A fully functioning web-based interface for a ticket<br> 
+                                    system based on the popular application SeatGeek<br>
+                                    and allows users to buy, sell and update tickets.        
+                                </p>
+                                <div class="languages">
+                                    <span class="language">Flask (Python)</span>
+                                    <span class="language">SQLAlchemy</span>
+                                    <span class="language">Javascript</span>
+                                    <span class="language">HTML</span>
+                                    <span class="language">CSS</span>
+                                </div>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+              
+                <div class="item">
+                    <div class="slide">
+                        <div class="image">
+                            <img class ="image_img" src="images/p1.jpeg" alt="">
+                            <div class ="image_overlay image_overlay_blur">
+                                <div class="image_title">Visual Status Display</div>
+                                <p class="image_description">
+                                    A web application that allows users to display their<br>
+                                    current status on their local network.   
+                                </p>
+                                <div class="languages">
+                                    <span class="language">NodeJs</span>
+                                    <span class="language">Express</span>
+                                    <span class="language">Typescript</span>
+                                    <span class="language">Javascript</span>
+                                    <span class="language">HTML</span>
+                                    <span class="language">CSS</span>
+                                </div>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+              </div>
+          
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+    </section>
+    <hr class="divider">
+    <section id = "languages-page">
+        <div class = "language-container">
+            <div class = "l-item">
+                <img src="planguages/html.png" width="100px" height="100px">
+            </div>
+            <div class = "l-item">
+                <img src="planguages/css.png" width="100px" height="100px">
+            </div>
+            <div class = "l-item">
+                <img src="planguages/javascript.png" width="100px" height="100px">
+            </div>
+            <div class = "l-item">
+                <img src="planguages/java.png" width="100px" height="100px">
+            </div>
+            <div class = "l-item">
+                <img src="planguages/C.png" width="100px" height="100px">
+            </div>
+            <div class = "l-item">
+                <img src="planguages/python.png" width="100px" height="100px">
+            </div>
+            <div class = "l-item">
+                <img src="planguages/php.png" width="100px" height="100px">
+            </div>
+            <div class = "l-item">
+                <img src="planguages/mysql.png" width="100px" height="100px">
+            </div>
+        </div>
+    </section>
+<!-- Automatic Slides
+    <script type="text/javascript">
+        var counter = 1;
+        setInterval(function(){
+            document.getElementById('radio' +counter).checked = true;
+            counter++;
+            if(counter > 3){
+                counter=1;
+            }
+        }, 5000);
+    </script>
+    -->
+</body>
+</html>
