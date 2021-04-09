@@ -29,6 +29,7 @@ body {
 .header-left a.active  {
     border-bottom: 5px solid #e100e9;
     color:  #e100e9;
+    text-decoration: none;
 }
 .header-left {
     float: left;
