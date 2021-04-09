@@ -12,6 +12,7 @@ body {
     overflow: hidden;
 }
 .header a {
+    margin-left: 0.5rem;
     float: left;
     color: black;
     text-align: center;
@@ -21,13 +22,13 @@ body {
     border-bottom: 5px solid transparent;
 }
 .header-left a:hover{
-    border-bottom: 5px solid #2C3DFF;
+    border-bottom: 5px solid #e100e9;
     text-decoration: none;
-    color:  #2C3DFF;
+    color:  #e100e9;
 }
 .header-left a.active  {
-    border-bottom: 5px solid #2C3DFF;
-    color:  #2C3DFF;
+    border-bottom: 5px solid #e100e9;
+    color:  #e100e9;
 }
 .header-left {
     float: left;
@@ -41,9 +42,9 @@ body {
     cursor: pointer;
 }
 .header-right a:hover{
-    border-bottom: 5px solid #2C3DFF;
+    border-bottom: 5px solid #e100e9;
     text-decoration: none;
-    color:  hsl(235, 100%, 59%);
+    color:  #e100e9;
 }
 /* Background for text on title page*/
 .background {
@@ -62,9 +63,9 @@ body {
     font-weight: bold;
 }
 .name, .major {
-    color:  #2C3DFF;
+    color:  #e100e9;
+    font-family: sans-serif;
 }
-
 
 /* About */
 #about-page {
@@ -96,6 +97,7 @@ body {
     transform: translate(-50%, -50%);
     color: black;
     text-align: center;
+    font-size: 40px;
     font-weight: bold;
 }
 .projects-display {
@@ -107,7 +109,7 @@ body {
 
 .image img{
     width: 100%;
-    height: 500px;
+    height: 550px;
 }
 
 /* Description of Projects */
@@ -161,16 +163,36 @@ body {
     flex-wrap: wrap;
 }
 .language {
-    padding: 5px;
-    color: black;
+    padding: 1rem;
+    color: white;
     margin: 5px;
-    background: white;
-    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.637);
+    border-radius: 0;
 }
 .projects-display {
    display: flex;
    justify-content: space-between;
    padding: 4rem;
+}
+.github-link {
+    margin-top: 4rem;
+    font-size: 18px;
+    background: white;
+    width: 12rem;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+}
+.github-link:hover {
+    background-color: #2cbcff;
+}
+.github2{
+    color: black;
+    text-decoration: none;
+}
+.github-link:hover a{
+    color: white;
+    text-decoration: none;
 }
 /*Dividers */
 hr.divider {
@@ -184,7 +206,20 @@ hr.divider {
 /* Languages */
 
 #languages-page {
-    height: 20vh;
+    height: 35vh;
+}
+#languages-page h2{
+    margin: 0;
+    position: relative;
+    padding: 20px;
+    top: 5%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
 }
 .language-container{
     display: flex;
@@ -199,3 +234,9 @@ hr.divider {
     align-items: center;
     padding: 0px;
 }
+figcaption {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
