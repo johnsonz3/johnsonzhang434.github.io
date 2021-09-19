@@ -15,9 +15,11 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
+    margin-top: -2rem;
     z-index: 100;
     position: fixed;
     background-color: white;
+    padding-top: 2rem;
 }
 .header a {
     margin-left: 0.5rem;
@@ -41,7 +43,6 @@ body {
 }
 
 .header-right {
-    display: flex;
     margin-right: 1rem;
 }
 .resume{
@@ -55,7 +56,7 @@ body {
 }
 /* Background for text on title page*/
 .background {
-    height: 88vh;
+    height: 100vh;
     position: relative;
 }
 .background h1{
@@ -254,3 +255,42 @@ figcaption {
     font-weight: bold;
 }
 
+.bounce {
+    position: absolute;
+    left:50%;
+    bottom:0;
+    margin-left:-25px;
+    height:50px;
+    width:50px;
+    color: black;
+    background: url('images/arrow.png');
+    background-size: 100% auto;
+    -webkit-animation:bounce 1s infinite;
+    -moz-animation:bounce 1s infinite;
+    -o-animation:bounce 1s infinite;
+    animation:bounce 1s infinite;
+}
+
+@-webkit-keyframes bounce {
+    0%       { bottom:0px; }
+    50%      { bottom:15px; }
+    100%     {bottom:30;}
+  }
+  
+   @-moz-keyframes bounce {
+    0%       { bottom:0px; }
+    50%      { bottom:15px; }
+    100%     {bottom:30;}
+  }
+  
+   @-o-keyframes bounce {
+    0%       { bottom:0px; }
+    50%      { bottom:15px; }
+    100%     {bottom:30;}
+  }
+  
+   @keyframes bounce {
+    0%       { bottom:0px; }
+    50%      { bottom:15px; }
+    100%     {bottom:30;}
+  }
