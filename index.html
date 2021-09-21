@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -14,7 +17,7 @@
 </header>
 <body>
     <section id = "home" class="background">
-        <nav class="navbar navbar-inverse" id="header">
+        <nav class="navbar sticky-top navbar-inverse" id="header">
         <div class="container-fluid">
             <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -23,7 +26,7 @@
                     <span class="icon-bar"></span>
                 </button>
             </div>
-
+            
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
                     <li><a class="header-link" href="#home">Home</a></li>
@@ -41,17 +44,20 @@
         </nav>
     
         <!-- Content of Home page -->
-        <h1>Hello, my name is<br><span class="name">Johnson Zhang</span><br> Aspiring Software Developer</h1>
+        <h1 class="text_content gs_reveal">Hello, my name is<br><span class="name">Johnson Zhang</span><br> Aspiring Software Developer</h1>
+       
         <div>
             <a href="#about-page" class="bounce"></a>
         </div>
     </section>
     <hr class="divider">
     <section id = "about-page">
-        <h1>“I am a 4th year<span class="major"> Software Design </span>Student at Queen's University graduating in May, 2022.
+        <h1 class="text_content gs_reveal">“I am a 4th year<span class="major"> Software Design </span>Student at Queen's University graduating in May, 2022.
         I like to code :) ”</h1>
     </section>
-    
+
+
+
     <section id = "projects-page">
     <hr class="divider" style="margin-bottom: 10rem;">
     <div class ="project-padding">

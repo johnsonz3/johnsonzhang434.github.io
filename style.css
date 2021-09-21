@@ -17,10 +17,6 @@ body {
     cursor: pointer;
 }
 
-#header{
-    background-color: black;
-}
-
 .header-link {
     font-size: 20px;
 }
@@ -32,17 +28,7 @@ body {
     height: 100vh;
     position: relative;
 }
-.background h1{
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    color: black;
-    text-align: center;
-    font-weight: bold;
-}
+
 .name, .major {
     color:  #e100e9;
     font-family: sans-serif;
@@ -50,19 +36,18 @@ body {
 
 /* About */
 #about-page {
-    height: 100vh;
+    height: 80vh;
 }
-#about-page h1{
+.text_content{
     width: 50vw;
     word-wrap: break-word;
     position: relative;
-    top: 50%;
-    left: 50%;
+    top: 40%;
+    left: 25%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
     color: black;
     text-align: center;
-    font-weight: bold;
 }
 
 /* Projects */
@@ -247,23 +232,105 @@ figcaption {
 @-webkit-keyframes bounce {
     0%       { bottom:0px; }
     50%      { bottom:15px; }
-    100%     {bottom:30;}
+    100%     { bottom:30;}
   }
   
    @-moz-keyframes bounce {
     0%       { bottom:0px; }
     50%      { bottom:15px; }
-    100%     {bottom:30;}
+    100%     { bottom:30;}
   }
   
    @-o-keyframes bounce {
     0%       { bottom:0px; }
     50%      { bottom:15px; }
-    100%     {bottom:30;}
+    100%     { bottom:30;}
   }
   
    @keyframes bounce {
     0%       { bottom:0px; }
     50%      { bottom:15px; }
-    100%     {bottom:30;}
+    100%     { bottom:30;}
+  }
+/** GSAP**/
+  #test {
+    font-weight: 300;
+  }
+  .ipsType_right {
+    text-align: right;
+  }
+  .ipsType_center {
+    text-align: center;
+  }
+  .cInnerContent {
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .ipsSpacer_bottom_double {
+    margin-bottom: 30px;
+  }
+  .ipsGrid {
+    display: inline-block;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .ipsGrid::before, .ipsGrid::after {
+    display: table;
+    content: "";
+    line-height: 0;
+  }
+  .ipsGrid > [class*="ipsGrid_span"] {
+    display: block;
+    width: 100%;
+    min-height: 30px;
+    box-sizing: border-box;
+  }
+  .ipsGrid > .ipsGrid_span5 {
+    width: 40.42553191489362%;
+  }
+  .ipsGrid > .ipsGrid_span7 {
+    width: 57.44680851063829%;
+  }
+  .ipsGrid > [class*="ipsGrid_span"] {
+    float: left;
+    margin-left: 2%;
+  }
+  .ipsGrid > [class*="ipsGrid_span"]:first-child {
+    margin-left: 0;
+  }
+  .feature {
+    display: flex;
+    align-items: center;
+  }
+  .card {
+    margin-bottom: 30px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #ffffff;
+    box-shadow: 1px 1px 5px 1px #CCCCCC;
+  /*   transition: 0.3s; */
+  }
+  .featured-image-container .card {
+    padding: 10px;
+    height: 0;
+    padding-bottom: calc(100% - 10px);
+  }
+  h2.heading_large {
+    font-size: 1.8em;
+  }
+  img {
+    max-width: 100%;
+  }
+  
+  .header-section {
+    margin: 200px auto;
+  }
+  
+  .gs_reveal {
+    opacity: 0;
+    visibility: hidden;
+    will-change: transform, opacity;
   }
