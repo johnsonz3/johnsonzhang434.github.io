@@ -143,7 +143,6 @@ body {
 .projects-display {
    display: flex;
    justify-content: space-between;
-   padding: 4rem;
 }
 .github-link {
     margin-top: 2vw;
@@ -178,7 +177,6 @@ hr.divider {
 
 #languages-page {
     height: 35vh;
-    padding: 2rem;
 }
 #languages-page h2{
     margin: 0;
@@ -197,7 +195,8 @@ hr.divider {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    justify-content: spaced-evenly;
+    justify-content: space-evenly;
+    left: 50%;
 }
 .l-item {
     margin-bottom: 2rem;
