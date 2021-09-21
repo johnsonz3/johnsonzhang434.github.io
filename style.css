@@ -25,17 +25,14 @@ body {
 }
 /* Background for text on title page*/
 .background {
-    height: 100vh;
-    position: relative;
+    height: 90vh;
 }
 
 .name, .major {
     color:  #e100e9;
     font-family: sans-serif;
 }
-.background {
-    height: 90vh;
-}
+
 /* About */
 #about-page {
     height: 80vh;
