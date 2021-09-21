@@ -14,6 +14,16 @@ body {
     cursor: pointer;
 }
 
+#header{
+    background-color: black;
+}
+
+.header-link {
+    font-size: 20px;
+}
+.header-link:hover {
+    color:  #e100e9 !important;
+}
 /* Background for text on title page*/
 .background {
     height: 100vh;
