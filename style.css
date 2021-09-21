@@ -33,7 +33,9 @@ body {
     color:  #e100e9;
     font-family: sans-serif;
 }
-
+.background {
+    height: 90vh;
+}
 /* About */
 #about-page {
     height: 80vh;
