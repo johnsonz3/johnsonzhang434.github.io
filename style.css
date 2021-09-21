@@ -197,8 +197,8 @@ hr.divider {
 .language-container{
     display: flex;
     flex-wrap: nowrap;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch !important;
     -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 .l-item {
