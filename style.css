@@ -1,8 +1,8 @@
 * {
     box-sizing: border-box;
 }
-html,body{
-    overflow-x: hidden;
+html,body {
+    overflow-x: hidden
 }
 html {
     scroll-behavior: smooth;
@@ -51,9 +51,7 @@ body {
 }
 
 /* Projects */
-.project-padding {
-    padding: 5vh;
-}
+
 #projects-page h2 {
     margin: 0;
     position: relative;
@@ -68,7 +66,7 @@ body {
     padding: 10px 10px;
 }
 .projects-display {
-    padding: 20vh;
+    padding: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -180,6 +178,7 @@ hr.divider {
 
 #languages-page {
     height: 35vh;
+    padding: 2rem;
 }
 #languages-page h2{
     margin: 0;
@@ -196,16 +195,12 @@ hr.divider {
 }
 .language-container{
     display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto !important;
-    -webkit-overflow-scrolling: touch !important;
-    -ms-overflow-style: -ms-autohiding-scrollbar;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: spaced-evenly;
 }
 .l-item {
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-    padding: 0px;
+    margin-bottom: 2rem;
 }
 figcaption {
     text-align: center;
