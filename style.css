@@ -16,6 +16,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.sticky-top {
+  width: 100%;
+  position: fixed;
+  z-index: 20;
+}
 .resume{
     font-size: 16px;
     cursor: pointer;
