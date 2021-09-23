@@ -184,7 +184,7 @@ hr.divider {
 /* Languages */
 
 #languages-page {
-    height: 35vh;
+    min-height: 35vh;
 }
 #languages-page h2{
     margin: 0;
@@ -205,6 +205,8 @@ hr.divider {
     width: 100%;
     justify-content: space-evenly;
     left: 50%;
+    margin-bottom: 2rem;
+
 }
 .l-item {
     margin-bottom: 2rem;
@@ -367,4 +369,12 @@ color: #2ecc71;
     opacity: 0;
     visibility: hidden;
     will-change: transform, opacity;
+  }
+
+  #last-part{
+    display: block;
+  }
+
+  #last-part p {
+    text-align: center;
   }
